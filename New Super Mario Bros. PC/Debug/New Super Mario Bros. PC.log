@@ -1,0 +1,48 @@
+﻿Build started 11/11/2015 10:40:17 PM.
+     1>Project "C:\Users\Quang Quang\Documents\GitHub\SuperMarioBros3\New Super Mario Bros. PC\New Super Mario Bros. PC.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt game.cpp Graphics.cpp main.cpp mario.cpp object.cpp physics.cpp sprite.cpp trace.cpp utils.cpp
+         utils.cpp
+         trace.cpp
+         sprite.cpp
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\sprite.cpp(72): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\sprite.cpp(73): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         physics.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(14): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(15): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(19): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(20): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(26): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(30): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\physics.cpp(31): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         object.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         mario.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\mario.cpp(71): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\mario.cpp(89): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\quang quang\documents\github\supermariobros3\new super mario bros. pc\mario.cpp(90): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+         main.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Graphics.cpp
+         game.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Quang Quang\Documents\GitHub\SuperMarioBros3\Debug\New Super Mario Bros. PC.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dxguid.lib dxerr.lib dinput8.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Quang Quang\Documents\GitHub\SuperMarioBros3\Debug\New Super Mario Bros. PC.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Quang Quang\Documents\GitHub\SuperMarioBros3\Debug\New Super Mario Bros. PC.lib" /MACHINE:X86 Debug\game.obj
+         Debug\Graphics.obj
+         Debug\main.obj
+         Debug\mario.obj
+         Debug\object.obj
+         Debug\physics.obj
+         Debug\sprite.obj
+         Debug\trace.obj
+         Debug\utils.obj
+         New Super Mario Bros. PC.vcxproj -> C:\Users\Quang Quang\Documents\GitHub\SuperMarioBros3\Debug\New Super Mario Bros. PC.exe
+     1>Done Building Project "C:\Users\Quang Quang\Documents\GitHub\SuperMarioBros3\New Super Mario Bros. PC\New Super Mario Bros. PC.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.67

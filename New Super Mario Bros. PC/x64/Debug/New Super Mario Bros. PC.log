@@ -1,0 +1,52 @@
+﻿Build started 11/11/2015 9:17:11 PM.
+     1>Project "C:\Users\Minh\Desktop\New Super Mario Bros. PC\New Super Mario Bros. PC\New Super Mario Bros. PC.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Graphics.cpp game.cpp main.cpp mario.cpp object.cpp physics.cpp sprite.cpp utils.cpp
+         utils.cpp
+     1>utils.cpp(11): error C2664: 'HRESULT D3DXGetImageInfoFromFileA(LPCSTR,D3DXIMAGE_INFO *)' : cannot convert argument 1 from 'LPWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>utils.cpp(36): error C2664: 'HRESULT D3DXLoadSurfaceFromFileA(LPDIRECT3DSURFACE9,const PALETTEENTRY *,const RECT *,LPCSTR,const RECT *,DWORD,D3DCOLOR,D3DXIMAGE_INFO *)' : cannot convert argument 4 from 'LPWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         sprite.cpp
+     1>sprite.cpp(20): error C2664: 'HRESULT D3DXGetImageInfoFromFileA(LPCSTR,D3DXIMAGE_INFO *)' : cannot convert argument 1 from 'LPWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>sprite.cpp(44): error C2664: 'HRESULT D3DXCreateTextureFromFileExA(LPDIRECT3DDEVICE9,LPCSTR,UINT,UINT,UINT,DWORD,D3DFORMAT,D3DPOOL,DWORD,DWORD,D3DCOLOR,D3DXIMAGE_INFO *,PALETTEENTRY *,LPDIRECT3DTEXTURE9 *)' : cannot convert argument 2 from 'LPWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>sprite.cpp(72): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>sprite.cpp(73): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         physics.cpp
+         C:\Program Files\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>physics.cpp(14): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>physics.cpp(15): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>physics.cpp(19): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>physics.cpp(20): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>physics.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>physics.cpp(26): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>physics.cpp(30): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>physics.cpp(31): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         object.cpp
+         C:\Program Files\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         mario.cpp
+         C:\Program Files\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>mario.cpp(71): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>mario.cpp(89): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>mario.cpp(90): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+         main.cpp
+         C:\Program Files\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         game.cpp
+         C:\Program Files\Microsoft DirectX SDK (June 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>game.cpp(68): error C2440: '=' : cannot convert from 'LPWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>game.cpp(91): error C2664: 'HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)' : cannot convert argument 2 from 'LPWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Graphics.cpp
+     1>Graphics.cpp(10): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)' : cannot convert argument 2 from 'const wchar_t [28]' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Graphics.cpp(38): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)' : cannot convert argument 2 from 'const wchar_t [31]' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Generating Code...
+     1>Done Building Project "C:\Users\Minh\Desktop\New Super Mario Bros. PC\New Super Mario Bros. PC\New Super Mario Bros. PC.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.32
